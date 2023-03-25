@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
-name: Build
+name: More checks
 on:
   workflow_dispatch:
   push:
 
 jobs:
-  build:
-    name: More checks
+  checks:
+    name: More checks well
 
     runs-on: [self-hosted, linux]
 
