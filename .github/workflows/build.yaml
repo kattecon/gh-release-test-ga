@@ -21,7 +21,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Make release file
-        run: make release-file
+        run: |
+          if test -e Makefile; then
+            make release-file
+          fi
 
       - name: Upload release artifact
         if: "${{ github.event.inputs.upload_release_file == 'true' }}"
