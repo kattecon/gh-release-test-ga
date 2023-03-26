@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Make release file
-        run: make release-file
+        run: make release-file && echo "${{ github.event.inputs.upload_release_file }}" && echo "${{ github.event.inputs.upload_release_file == true }}"
 
       - name: Upload release artifact
         if: "${{ github.event.inputs.upload_release_file == true }}"
