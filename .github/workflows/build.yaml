@@ -2,8 +2,13 @@
 
 name: Build
 on:
-  workflow_dispatch:
   push:
+  workflow_dispatch:
+    inputs:
+      upload_release_file:
+        type: boolean
+        default: false
+        description: Whether to upload the release file as an artifact or not.
 
 jobs:
   build:
@@ -19,6 +24,7 @@ jobs:
         run: make release-file
 
       - name: Upload release artifact
+        if: github.event == 'workflow_dispatch' && github.event.inputs.upload_release_file == true
         uses: actions/upload-artifact@v3
         with:
           name: release-file
