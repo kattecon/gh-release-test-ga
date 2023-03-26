@@ -8,7 +8,7 @@ on:
       upload_release_file:
         type: boolean
         default: false
-        description: Whether to upload the release file as an artifact or not.
+        description: Upload generated release file as an artifact.
 
 jobs:
   build:
