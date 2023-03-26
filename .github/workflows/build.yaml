@@ -2,8 +2,13 @@
 
 name: Build
 on:
-  workflow_dispatch:
   push:
+  workflow_dispatch:
+    inputs:
+      upload_release_file:
+        type: boolean
+        default: false
+        description: Upload generated release file as an artifact.
 
 jobs:
   build:
@@ -14,3 +19,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Make release file
+        run: |
+          if test -e Makefile; then
+            make release-file
+          fi
+
+      - name: Upload release artifact
+        if: "${{ github.event.inputs.upload_release_file == 'true' }}"
+        uses: actions/upload-artifact@v3
+        with:
+          name: release
+          path: release.tar.gz
