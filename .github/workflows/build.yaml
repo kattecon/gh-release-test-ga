@@ -24,7 +24,7 @@ jobs:
         run: make release-file
 
       - name: Upload release artifact
-        if: github.event == 'workflow_dispatch' && inputs.upload_release_file
+        if: "${{ github.event.inputs.upload_release_file == true }}"
         uses: actions/upload-artifact@v3
         with:
           name: release-file
