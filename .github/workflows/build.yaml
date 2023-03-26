@@ -27,5 +27,5 @@ jobs:
         if: "${{ github.event.inputs.upload_release_file == 'true' }}"
         uses: actions/upload-artifact@v3
         with:
-          name: release-file
+          name: release
           path: release.tar.gz
