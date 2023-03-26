@@ -1,5 +1,5 @@
 RELEASE_FILE := release.tar.gz
-RELEASE_STATIC_CONTENT := .github/workflows/build.yaml README.md
+RELEASE_STATIC_CONTENT := .github/workflows/build.yaml README.md .github/CODEOWNERS
 
 .PHONY: clean distclean build
 
