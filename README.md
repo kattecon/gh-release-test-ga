@@ -4,5 +4,5 @@ A test repository that is used by [gh-release-maker](https://github.com/kattecon
 
 ## Release build info
 
-This release v0.1.0 was built from the commit [f3229e9c93802f2aa6c8d14ec4d364c6c258ce04](https://github.com/kattecon/gh-release-maker-test/tree/f3229e9c93802f2aa6c8d14ec4d364c6c258ce04) on 2023-03-27T20:12:15.065Z.
+This release v0.2.2 was built from the commit [f3229e9c93802f2aa6c8d14ec4d364c6c258ce04](https://github.com/kattecon/gh-release-maker-test/tree/f3229e9c93802f2aa6c8d14ec4d364c6c258ce04) (aka [release-src/v0.2.2](https://github.com/kattecon/gh-release-maker-test/tree/release-src/v0.2.2)) on 2023-03-27T20:33:48.922Z.
         
