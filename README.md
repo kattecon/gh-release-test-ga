@@ -4,7 +4,8 @@ A test repository that is used by [gh-release](https://github.com/kattecon/gh-re
 
 Some change whatever.
 
+
 ## Release build info
 
-This release v0.3.19 was built from the commit [418f98d1e1e0b2629597e9d326862b11e4b10fd8](https://github.com/kattecon/gh-release-test-ga/tree/418f98d1e1e0b2629597e9d326862b11e4b10fd8) (aka [release-src/v0.3.19](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.3.19)) on 2023-03-30T16:15:39.900Z.
+This release v0.3.20 was built from the commit [bace14ac3d5a66f7846b58b533e9d0952e81fae4](https://github.com/kattecon/gh-release-test-ga/tree/bace14ac3d5a66f7846b58b533e9d0952e81fae4) (aka [release-src/v0.3.20](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.3.20)) on 2023-03-30T16:45:22.984Z.
         
