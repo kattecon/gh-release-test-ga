@@ -7,5 +7,5 @@ Some change whatever.
 
 ## Release build info
 
-This release v0.3.73 was built from the commit [bace14ac3d5a66f7846b58b533e9d0952e81fae4](https://github.com/kattecon/gh-release-test-ga/tree/bace14ac3d5a66f7846b58b533e9d0952e81fae4) (aka [release-src/v0.3.73](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.3.73)) on 2023-04-12T02:04:18.212Z.
+This release v0.3.74 was built from the commit [bace14ac3d5a66f7846b58b533e9d0952e81fae4](https://github.com/kattecon/gh-release-test-ga/tree/bace14ac3d5a66f7846b58b533e9d0952e81fae4) (aka [release-src/v0.3.74](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.3.74)) on 2023-04-12T06:35:57.818Z.
         
