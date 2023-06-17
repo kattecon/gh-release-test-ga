@@ -14,7 +14,8 @@ jobs:
   build:
     name: Test & Build
 
-    runs-on: [self-hosted, linux]
+    # Do it on github's own repo, this action is very simple and takes no time
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
