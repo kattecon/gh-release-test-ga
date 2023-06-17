@@ -9,8 +9,9 @@ jobs:
   checks:
     name: More checks well
 
-    runs-on: [self-hosted, linux]
+    # Do it on github's own repo, this action is very simple and takes no time
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3.5.3
+      - name: Nothing
+        run: echo hello
