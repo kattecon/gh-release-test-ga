@@ -9,6 +9,12 @@ on:
         type: boolean
         default: false
         description: Upload generated release file as an artifact.
+      release_version:
+        type: string
+        default: ""
+        required: false
+        description: Use this string as version in the application.
+
 
 jobs:
   build:
@@ -26,6 +32,12 @@ jobs:
           if test -e Makefile; then
             make release-file
           fi
+
+      - name: Info
+        env:
+          RV: "${{ github.event.inputs.release_version }}"
+        run: |
+          echo "Release version: $RV"
 
       - name: Upload release artifact
         if: "${{ github.event.inputs.upload_release_file == 'true' }}"
