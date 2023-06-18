@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 
 name: Build
+run-name: Build (rv=${{ inputs.release_version || '---' }})
+
 on:
   push:
   workflow_dispatch:
@@ -8,11 +10,12 @@ on:
       upload_release_file:
         type: boolean
         default: false
+        required: true
         description: Upload generated release file as an artifact.
       release_version:
         type: string
         default: ""
-        required: false
+        required: true
         description: Use this string as version in the application.
 
 
