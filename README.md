@@ -7,5 +7,5 @@ Some change whatever.
 
 ## Release build info
 
-This release v0.4.420 was built from the commit [a00b1e0bb4045acba520dc284c381fe4cbab1a0b](https://github.com/kattecon/gh-release-test-ga/tree/a00b1e0bb4045acba520dc284c381fe4cbab1a0b) (aka [release-src/v0.4.420](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.420)) on 2024-01-20T02:12:21.270Z.
+This release v0.4.421 was built from the commit [a00b1e0bb4045acba520dc284c381fe4cbab1a0b](https://github.com/kattecon/gh-release-test-ga/tree/a00b1e0bb4045acba520dc284c381fe4cbab1a0b) (aka [release-src/v0.4.421](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.421)) on 2024-01-20T02:14:50.893Z.
         
