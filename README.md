@@ -1,6 +1,4 @@
-# Test-subject of type 'github-action' for gh-release
+# 'github-action' test subject
 
-A test repository that is used by [gh-release](https://github.com/kattecon/gh-release)'s test workflow to test github-action release workflow.
-
-Some change whatever.
+A test repository. Nothing to see here.
 
