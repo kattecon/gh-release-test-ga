@@ -1,11 +1,9 @@
-# Test-subject of type 'github-action' for gh-release
+# 'github-action' test subject
 
-A test repository that is used by [gh-release](https://github.com/kattecon/gh-release)'s test workflow to test github-action release workflow.
-
-Some change whatever.
+A test repository. Nothing to see here.
 
 
 ## Release build info
 
-This release v0.4.695 was built from the commit [cd2397bf66548c907c0882313589b77a801bba6f](https://github.com/kattecon/gh-release-test-ga/tree/cd2397bf66548c907c0882313589b77a801bba6f) (aka [release-src/v0.4.695](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.695)) on 2024-06-22T05:02:07.671Z.
+This release v0.4.696 was built from the commit [1d79231d503de083bc65e91c9efe265942d53768](https://github.com/kattecon/gh-release-test-ga/tree/1d79231d503de083bc65e91c9efe265942d53768) (aka [release-src/v0.4.696](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.696)) on 2024-06-23T01:20:49.487Z.
         
