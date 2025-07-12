@@ -5,5 +5,5 @@ A test repository. Nothing to see here.
 
 ## Release build info
 
-This release v0.4.1225 was built from the commit [29b58ce295670ab43416fd9fc5c909f1434debdb](https://github.com/kattecon/gh-release-test-ga/tree/29b58ce295670ab43416fd9fc5c909f1434debdb) (aka [release-src/v0.4.1225](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.1225)) on 2025-07-12T02:14:02.185Z.
+This release v0.4.1226 was built from the commit [29b58ce295670ab43416fd9fc5c909f1434debdb](https://github.com/kattecon/gh-release-test-ga/tree/29b58ce295670ab43416fd9fc5c909f1434debdb) (aka [release-src/v0.4.1226](https://github.com/kattecon/gh-release-test-ga/tree/release-src/v0.4.1226)) on 2025-07-12T02:17:26.864Z.
         
